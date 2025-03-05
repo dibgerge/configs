@@ -22,6 +22,11 @@
 4. Install chrome: `yay -S google-chrome`. Then, change default browser in ML4W to run `google-chrome-stable`
 5. Install [mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html) for python package management.
    1. Do not accept to add mamba init to your shell. After install run `mamba init zsh` so that it will update `zsh` install of the default `bash`.
+  
+
+## Gvim
+
+vim does not have gtk support, and need to replace is with `gvim`: `sudo pacman -S gvim`. This allows for copy/paste from the system registers (`"+p`/`"+yy`)
  
 
 ## Setup zsh
