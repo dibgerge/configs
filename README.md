@@ -34,9 +34,9 @@ vim does not have gtk support, and need to replace is with `gvim`: `sudo pacman 
 ML4W uses `oh-my-zsh` and `oh-my-posh` by default. The `power10k_theme` is going out of maintenance, but I used the `oh-my-posh` implementatioin of it.
 
 1. Copy the file `~/.config/zshrc/20-customization` to `~/.config/zshrc/custom/20-customization`
-2. Change the `oh-my-posh` init command to the following:
-
-   `eval "$(oh-my-posh init zsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/powerlevel10k_rainbow.omp.json)"`
+2. Copy the file `powerlevel10k_rainbow.toml` to the `~/.config/ohmyposh/` directory. This file is slightly modified version of the theme to add conda environment info.
+4. Change the `oh-my-posh` init command to the following:
+   `eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/powerlevel10k_rainbow.toml)"`
 
 ## Tmux 
 
