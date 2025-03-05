@@ -26,10 +26,12 @@
 
 ## Setup zsh
 
-1. Install [oh-my-z](https://github.com/ohmyzsh/ohmyzsh)
+ML4W uses `oh-my-zsh` and `oh-my-posh` by default. The `power10k_theme` is going out of maintenance, but I used the `oh-my-posh` implementatioin of it.
 
-## Setup theme
-Install the [power10k theme](https://github.com/romkatv/powerlevel10k). Copy the file .p10k.zsh into home directory to have appropriate colors.
+1. Copy the file `~/.config/zshrc/20-customization` to `~/.config/zshrc/custom/20-customization`
+2. Change the `oh-my-posh` init command to the following:
+
+   `eval "$(oh-my-posh init zsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/powerlevel10k_rainbow.omp.json)"`
 
 ## Tmux 
 
