@@ -38,6 +38,11 @@ ML4W uses `oh-my-zsh` and `oh-my-posh` by default. The `power10k_theme` is going
 4. Change the `oh-my-posh` init command to the following:
    `eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/powerlevel10k_rainbow.toml)"`
 
+## Waybar theme
+
+This is the top bar which comes with Hyprland and in particular ML4W theme. The waybar has its own theme, and the given theme config customize it to look nicer (to my taste) than the built in themes that come with ML4W. To use it, copy the folder `waybar/themes/colorful` to the location `~/.config/waybar/themes` on local machine. 
+
+
 ## Tmux 
 
 Instal TPM package manager and Nord-theme https://www.nordtheme.com/docs/ports/tmux/installation
