@@ -15,13 +15,13 @@ final_space = true
   [[blocks.segments]]
     leading_diamond = '╭─'
     template = ' {{ if .WSL }}WSL at {{ end }}{{.Icon}} '
-    foreground = '#000000'
-    background = '#d3d7cf'
+    foreground = 'black'
+    background = '#edc001'
     type = 'os'
     style = 'diamond'
 
   [[blocks.segments]]
-    template = '  {{ .Path }} '
+    template = '   {{ .Path }} '
     foreground = '#e4e4e4'
     powerline_symbol = ''
     background = '#3465a4'
@@ -158,10 +158,10 @@ final_space = true
     invert_powerline = true
 
   [[blocks.segments]]
-    template = ' {{ if gt .Code 0 }}{{ reason .Code }}{{ else }}{{ end }} '
-    foreground = '#d3d7cf'
+    template = ' {{ if gt .Code 0 }}{{ reason .Code }}{{ else }}{{ end }} '
+    foreground = 'black'
     powerline_symbol = ''
-    background = '#000000'
+    background = '#edc001'
     type = 'status'
     style = 'powerline'
     background_templates = ['{{ if gt .Code 0 }}#cc2222{{ end }}']
@@ -186,7 +186,7 @@ final_space = true
 
   [[blocks.segments]]
     template = '╰─'
-    foreground = '#d3d7cf'
+    foreground = '#edc001'
     type = 'text'
     style = 'plain'
 
@@ -195,6 +195,6 @@ final_space = true
 
   [[blocks.segments]]
     template = '─╯'
-    foreground = '#d3d7cf'
+    foreground = '#edc001'
     type = 'text'
     style = 'plain'
